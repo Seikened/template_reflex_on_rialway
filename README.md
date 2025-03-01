@@ -21,6 +21,10 @@ Use Github repository to deploy it in Rialway
 ENV="prod"
 ```
 
+<div align="center">
+<img src="https://github.com/Seikened/template_reflex_on_rialway/blob/main/doc/variables.png" alt="A frontend wrapper for DALL·E, shown in the process of generating an image." width="550" />
+</div>
+
 ## Installation
 
 
