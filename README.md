@@ -1,5 +1,3 @@
-
-
 # Template para Desplegar un Proyecto Reflex en Railway
 
 > **Aviso ⚠️**  
@@ -20,7 +18,7 @@
 1. **Clonar el Repositorio:**
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Seikened/template_reflex_on_rialway
    ```
 
 2. **Renombrar y Organizar:**  
@@ -71,11 +69,10 @@ config = ReflextemplateConfig(
    ```env
    ENV="prod"
    ```
+
 <div align="center">
   <img src="https://github.com/Seikened/template_reflex_on_rialway/blob/main/doc/variables.png" alt="Configuración de variables en Railway" width="550" />
 </div>
-
-
 
 2. **Configurar el Dominio Público:**  
    Una vez creado el proyecto en Railway, ve a la sección "Public Networking". Copia el dominio que se te proporciona y reemplaza `public_domain` en tu configuración con ese valor (a menos que tengas un dominio personalizado).
@@ -85,10 +82,7 @@ config = ReflextemplateConfig(
 </div>
 
 > **Consejo 💡:**  
-> El primer dominio **example.up.rialway.app** lo brinda Rialway pero puedes configurar tu propio dominio que es el de **www.example.com**, ya sea cual opción elijas, asegurate de cambiarlo en el `rxconfig.py`
-
-
-
+> El primer dominio **example.up.rialway.app** lo brinda Railway, pero puedes configurar tu propio dominio, como **www.example.com**. Sea cual sea la opción, asegúrate de cambiarlo en el `rxconfig.py`.
 
 ---
 
@@ -136,11 +130,11 @@ config = ReflextemplateConfig(
 - **Contribuciones:**  
   Si encuentras errores o mejoras:
   - Abre un issue o envía un pull request en el repositorio.
-  - **Dale estrella al repositorio** si te resulta útil; es un recurso comunitario y tus aportes son bienvenidos.
+  - **Dale estrella al repositorio** si te resulta útil; es un recurso comunitario y tus aportes son bienvenidos.  
+  **¡Si te sirvió, no olvides dejar una ⭐ al repo!**
 
 ---
 
 ## 8. Reflexiones Finales 💬
 
 Este template está diseñado como un **punto de partida sencillo** para desplegar proyectos Reflex en Railway. Los pasos anteriores te guiarán desde la configuración local hasta un despliegue en vivo. Personalízalo según las necesidades de tu proyecto y comparte tus mejoras con la comunidad.
-
