@@ -83,6 +83,10 @@ config = ReflextemplateConfig(
 <div align="center">
   <img src="https://github.com/Seikened/template_reflex_on_rialway/blob/main/doc/public_domain.png" alt="Configuración del dominio público en Railway" width="550" />
 </div>
+> **Consejo 💡:**  
+> El primer dominio **example.up.rialway.app** lo brinda Rialway pero puedes configurar tu propio dominio que es el de **www.example.com**, ya sea cual opción elijas, asegurate de cambiarlo en el `rxconfig.py`
+
+
 
 
 ---
