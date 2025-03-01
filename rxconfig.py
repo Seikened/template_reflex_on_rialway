@@ -2,7 +2,7 @@ import reflex as rx
 import os
 
 # Usa manualmente el dominio público de Railway
-public_domain = "www.fer-blog.leonesfrancos.com"
+public_domain = "templatereflexonrialway-production.up.railway.app"
 
 class ReflextemplateConfig(rx.Config):
     pass
